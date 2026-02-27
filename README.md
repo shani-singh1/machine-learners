@@ -2,7 +2,7 @@
 
 Production-oriented flood vulnerability forecasting system using public earth observation and environmental signals.
 
-This repository implements the workflow defined in `build.md`:
+This repository implements the workflow defined as:
 
 - data ingestion (multi-source, monthly)
 - preprocessing + feature construction
