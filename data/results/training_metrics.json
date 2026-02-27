@@ -1,0 +1,127 @@
+{
+  "baseline": {
+    "mae": 0.06624827847196606,
+    "r2": -0.016310537092787403
+  },
+  "temporal": {
+    "mae": 0.04314192719076363,
+    "r2": 0.5342493833669024,
+    "validation_mae_for_selected_model": 0.07726760060055703,
+    "mae_improvement_over_baseline": 0.023106351281202427,
+    "r2_improvement_over_baseline": 0.5505599204596898
+  },
+  "selected_temporal_model_name": "extra_trees",
+  "selected_temporal_config": {
+    "bootstrap": false,
+    "ccp_alpha": 0.0,
+    "criterion": "squared_error",
+    "max_depth": 24,
+    "max_features": 1.0,
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 900,
+    "n_jobs": -1,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "split_info": {
+    "train_end": "202211",
+    "val_start": "202212",
+    "val_end": "202311",
+    "test_start": "202312",
+    "test_end": "202411"
+  },
+  "top_feature_importance": [
+    {
+      "feature": "rainfall_accumulation",
+      "importance": 0.2562075001888569
+    },
+    {
+      "feature": "rainfall_accumulation_lag3",
+      "importance": 0.17938232439728088
+    },
+    {
+      "feature": "rainfall_accumulation_lag1",
+      "importance": 0.17604878294791446
+    },
+    {
+      "feature": "rainfall_accumulation_lag2",
+      "importance": 0.17151425023888764
+    },
+    {
+      "feature": "rainfall_accumulation_roll3",
+      "importance": 0.10497401888168591
+    },
+    {
+      "feature": "low_lying_score_lag3",
+      "importance": 0.027206111895548245
+    },
+    {
+      "feature": "impervious_change_rate",
+      "importance": 0.014372678869871008
+    },
+    {
+      "feature": "impervious_change_rate_roll3",
+      "importance": 0.013975577217041782
+    },
+    {
+      "feature": "impervious_change_rate_lag3",
+      "importance": 0.012995922993603165
+    },
+    {
+      "feature": "impervious_change_rate_lag2",
+      "importance": 0.010765482312997808
+    },
+    {
+      "feature": "impervious_change_rate_lag1",
+      "importance": 0.010018968498533093
+    },
+    {
+      "feature": "population_exposure_lag3",
+      "importance": 0.002600407393483519
+    },
+    {
+      "feature": "population_exposure_lag1",
+      "importance": 0.0025823791106261416
+    },
+    {
+      "feature": "population_exposure",
+      "importance": 0.0025628889489796736
+    },
+    {
+      "feature": "population_exposure_lag2",
+      "importance": 0.0025564857467186455
+    },
+    {
+      "feature": "population_exposure_roll3",
+      "importance": 0.0025548303018398627
+    },
+    {
+      "feature": "low_lying_score",
+      "importance": 0.0011583873475972425
+    },
+    {
+      "feature": "low_lying_score_roll3",
+      "importance": 0.0011533089781406163
+    },
+    {
+      "feature": "low_lying_score_lag2",
+      "importance": 0.0011222563548558449
+    },
+    {
+      "feature": "sar_water_persistence_lag1",
+      "importance": 0.0011041630977375707
+    }
+  ],
+  "model_paths": {
+    "baseline": "C:\\Users\\cyber\\OneDrive\\Documents\\machine_learners\\data\\results\\models\\baseline_model.joblib",
+    "temporal": "C:\\Users\\cyber\\OneDrive\\Documents\\machine_learners\\data\\results\\models\\temporal_model.joblib"
+  }
+}

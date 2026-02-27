@@ -1,0 +1,21 @@
+{
+  "city": "bengaluru",
+  "country": "india",
+  "date_range": {
+    "start": "2020-01-01",
+    "end": "2024-12-31"
+  },
+  "roi": {
+    "name": "Bengaluru Urban + Peri-Urban",
+    "bbox_wgs84": [77.35, 12.75, 77.85, 13.25]
+  },
+  "sources": {
+    "era5": true,
+    "dem": true,
+    "sentinel_1": false,
+    "sentinel_2": false,
+    "ghsl": false,
+    "worldpop": false,
+    "osm_roads": false
+  }
+}

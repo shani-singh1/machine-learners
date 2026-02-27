@@ -1,0 +1,102 @@
+[
+  {
+    "feature": "rainfall_accumulation",
+    "importance": 0.2562075001888569
+  },
+  {
+    "feature": "rainfall_accumulation_lag3",
+    "importance": 0.17938232439728088
+  },
+  {
+    "feature": "rainfall_accumulation_lag1",
+    "importance": 0.17604878294791446
+  },
+  {
+    "feature": "rainfall_accumulation_lag2",
+    "importance": 0.17151425023888764
+  },
+  {
+    "feature": "rainfall_accumulation_roll3",
+    "importance": 0.10497401888168591
+  },
+  {
+    "feature": "low_lying_score_lag3",
+    "importance": 0.027206111895548245
+  },
+  {
+    "feature": "impervious_change_rate",
+    "importance": 0.014372678869871008
+  },
+  {
+    "feature": "impervious_change_rate_roll3",
+    "importance": 0.013975577217041782
+  },
+  {
+    "feature": "impervious_change_rate_lag3",
+    "importance": 0.012995922993603165
+  },
+  {
+    "feature": "impervious_change_rate_lag2",
+    "importance": 0.010765482312997808
+  },
+  {
+    "feature": "impervious_change_rate_lag1",
+    "importance": 0.010018968498533093
+  },
+  {
+    "feature": "population_exposure_lag3",
+    "importance": 0.002600407393483519
+  },
+  {
+    "feature": "population_exposure_lag1",
+    "importance": 0.0025823791106261416
+  },
+  {
+    "feature": "population_exposure",
+    "importance": 0.0025628889489796736
+  },
+  {
+    "feature": "population_exposure_lag2",
+    "importance": 0.0025564857467186455
+  },
+  {
+    "feature": "population_exposure_roll3",
+    "importance": 0.0025548303018398627
+  },
+  {
+    "feature": "low_lying_score",
+    "importance": 0.0011583873475972425
+  },
+  {
+    "feature": "low_lying_score_roll3",
+    "importance": 0.0011533089781406163
+  },
+  {
+    "feature": "low_lying_score_lag2",
+    "importance": 0.0011222563548558449
+  },
+  {
+    "feature": "sar_water_persistence_lag1",
+    "importance": 0.0011041630977375707
+  },
+  {
+    "feature": "low_lying_score_lag1",
+    "importance": 0.0010804907970406283
+  },
+  {
+    "feature": "sar_water_persistence_lag3",
+    "importance": 0.0010558795049875318
+  },
+  {
+    "feature": "sar_water_persistence_roll3",
+    "importance": 0.0010128566196731651
+  },
+  {
+    "feature": "sar_water_persistence",
+    "importance": 0.0010030901567850785
+  },
+  {
+    "feature": "sar_water_persistence_lag2",
+    "importance": 0.0009909571993135483
+  }
+]
