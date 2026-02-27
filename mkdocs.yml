@@ -1,0 +1,41 @@
+site_name: Bengaluru Flood Vulnerability Docs
+site_description: Developer and operations documentation for the urban flood vulnerability forecasting platform.
+site_url: https://example.local
+repo_name: machine-learners
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: cyan
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.instant
+    - search.suggest
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Architecture: architecture.md
+  - Data:
+      - Ingestion: data-ingestion.md
+      - Preprocessing and Features: preprocessing-features.md
+  - Modeling:
+      - Training and Evaluation: modeling.md
+      - Inference and Scoring: inference-scoring.md
+  - Product:
+      - API: api.md
+      - Decision Dashboard UI: ui.md
+  - Operations:
+      - Runbook: operations.md
+      - Troubleshooting: troubleshooting.md
+      - Onboarding: onboarding.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
